@@ -1,0 +1,62 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+.vsconfig
+*.sln
+*.suo
+*.opensdf
+*.sdf
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Unreal Engine generated files
+*.xcodeproj
+*.xcworkspace
+**/Binaries/*
+Plugins/**/Binaries/*
+**/Build/*
+!**/Build/*/
+**/Build/*/**
+!**/Build/*/PakBlacklist*.txt
+!**/Build/**/*.ico
+*_BuiltData.uasset
+**/Saved/*
+**/Intermediate/*
+Plugins/**/Intermediate/*
+**/DerivedDataCache/*
+
+# Source Art
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Compilados
+*.pdb
+*.ilk
+
+# Temporales
+*.tmp
+*.log
